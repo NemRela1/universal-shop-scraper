@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universal-shop-scraper"
+version = "0.1.0"
+authors = [
+    { name="Lucas Magalhães", email="conceicaolucas68@gmail.com" },
+]
+description = "A resilient e-commerce scraper using JSON-LD metadata. Works with VTEX, Shopify, and major retail platforms."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "pandas>=2.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
