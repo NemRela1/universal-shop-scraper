@@ -8,6 +8,10 @@ version = "0.1.0"
 authors = [
     { name="Lucas Magalhães", email="conceicaolucas68@gmail.com" },
 ]
+[project.urls]
+"Homepage" = "https://github.com/nemrela1/universal-shop-scraper"
+"Bug Tracker" = "https://github.com/nemrela1/universal-shop-scraper/issues"
+"Repository" = "https://github.com/nemrela1/universal-shop-scraper"
 description = "A resilient e-commerce scraper using JSON-LD metadata. Works with VTEX, Shopify, and major retail platforms."
 readme = "README.md"
 license = {text = "MIT"}
